@@ -1,0 +1,25 @@
+{
+  "name": "first-tailwindcss-website",
+  "version": "1.0.0",
+  "description": "I made this website to learn to use tailwind css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "tailwindcss -i src/styles.css -o dist/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plainsight16/first-tailwindcss-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plainsight16/first-tailwindcss-website/issues"
+  },
+  "homepage": "https://github.com/plainsight16/first-tailwindcss-website#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "tailwindcss": "^2.2.19"
+  }
+}
